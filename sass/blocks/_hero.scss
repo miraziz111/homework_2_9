@@ -1,0 +1,66 @@
+.hero{
+  background: #0E0E0E;
+  overflow: hidden;
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__hr {
+    background: #FFFFFF;
+    opacity: 0.2;
+    max-width: 1110px;
+    height: 1px;
+  }
+  &__left--box {
+    padding-top: 128px ;
+  }
+  &__paragraph {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    max-width: 210px;
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 24px 0;
+    max-width: 396px;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 350px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-bottom: 40px;
+  }
+  &__btn{
+    padding: 15px 30px;
+    font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+background: #D87D4A;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #FFFFFF;
+  }
+  &__right--box {
+    background-image: url("../../images/naushnik.png");
+    background-repeat: no-repeat;
+    // background-size: cover;
+    display: inline-block;
+    width: 708px;
+    height: 886px;
+    margin-left: 450px;
+    margin-top: -600px;
+    background-color: transparent;
+  }
+}

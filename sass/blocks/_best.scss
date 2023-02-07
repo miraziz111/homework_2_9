@@ -1,0 +1,39 @@
+.best{
+padding: 200px 0;
+  .best__inner {
+display: flex;
+align-items: center;
+column-gap: 125px;
+  }
+  .best__left--box {
+  }
+  .best__span{
+    color: crimson;
+  }
+  .best__heading {
+    font-weight: 700;
+font-size: 40px;
+line-height: 44px;
+letter-spacing: 1.42857px;
+text-transform: uppercase;
+color: #000000;
+max-width: 445px;
+margin-bottom: 32px;
+  }
+  .best__text {
+    font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #000000;
+opacity: 0.5;
+max-width: 445px;
+  }
+  .best__right--box {
+  }
+  .best__img {
+    width: 540px;
+    height: 588px;
+    background: #F1F1F1;
+border-radius: 8px;
+  }
+}
